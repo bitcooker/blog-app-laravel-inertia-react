@@ -68,7 +68,7 @@ class PostController extends Controller
     {
         $post->update($request->validated());
 
-        return Redirect::route('posts.index')
+        return Redirect::route('posts.index');
     }
 
     /**
