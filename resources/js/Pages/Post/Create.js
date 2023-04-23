@@ -1,9 +1,9 @@
 import React from 'react';
 import { Inertia } from '@inertiajs/inertia';
-import { InertiaLink, useForm} from '@inertiajs/inertia-react';
+import { InertiaLink, useForm } from '@inertiajs/inertia-react';
 
-const Create = ()=> {
-    const {data, setData, errors, post} = useForm({
+const Create = () => {
+    const { data, setData, errors, post } = useForm({
         title: "",
         description: "",
     });
@@ -79,3 +79,5 @@ const Create = ()=> {
         </div>
     )
 }
+
+export default Create;
