@@ -4,6 +4,6 @@ This is the simple CRUD implementation of single page application using Laravel,
 
 # Tech stacks
 
-- [Laravel](https://laravel.com/)
+- [Laravel] (https://laravel.com/)
 - [React] (https://reactjs.org/)
 - [Inertia.js] (https://inertiajs.com/)
